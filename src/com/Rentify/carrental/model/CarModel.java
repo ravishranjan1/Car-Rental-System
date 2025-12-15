@@ -1,7 +1,7 @@
 package com.Rentify.carrental.model;
 
 public class CarModel {
-    private String name;
+    private String id;
     private String make;
     private String model;
     private String category;
@@ -9,12 +9,12 @@ public class CarModel {
     private double dailyRate;
     private boolean available;
 
-    public String getName() {
-        return name;
+    public String getId() {
+        return id;
     }
 
-    public void setName(String name) {
-        this.name = name;
+    public void setId(String id) {
+        this.id = id;
     }
 
     public String getMake() {
@@ -68,7 +68,7 @@ public class CarModel {
     @Override
     public String toString() {
         return "CarModel{" +
-                "name='" + name + '\'' +
+                "name='" + id + '\'' +
                 ", make='" + make + '\'' +
                 ", model='" + model + '\'' +
                 ", category='" + category + '\'' +

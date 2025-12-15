@@ -1,0 +1,4 @@
+id,make,model,category,seats,dailyRate,available
+C101,Toyota,Corolla,Economy,5,35.0,true
+C102,Hyundai,Creta,SUV,5,55.0,true
+C103,Mercedes,C200,Luxury,5,150.0,true
